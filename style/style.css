@@ -18,7 +18,7 @@ body{
   border: 2px solid rgb(0, 250, 0);
 }
 
-.debug .container {
+.debug [class^="container"]{
   border: 1px dashed rgba(250, 0, 0, 0.3);
 }
 
