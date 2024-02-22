@@ -3,21 +3,22 @@
   --ms_bg_green:#1ABC9C;
   --ms_bg_blue2:#3A546D;
 }
-/*************************************************
-    GENERAL STYLES
- *************************************************/
-body{
-  font-family:Arial, Helvetica, sans-serif;
-}
 
-/* HEADER */
-header{
+/* UTILITY */
+.ms_bg-blue{
   background-color: var(--ms_bg_blue);
 }
+.ms_bg-green{
+  background-color: var(--ms_bg_green);
+}
+.ms_bg-blue2{
+  background-color: var(--ms_bg_blue2);
+}
 
-
-
-/* MAIN */
+/* COMPONENTS */
+.ms_star{
+  color: #2C3E50;
+}
 .ms_star::before{
   content: "";
   display: inline-block;
@@ -36,39 +37,17 @@ header{
   margin-left: 20px; 
   border-radius: 5px;
 }
-.ms_hero{
-  background-color: var(--ms_bg_green);
+/*************************************************
+    GENERAL STYLES
+ *************************************************/
+body{
+  font-family:Arial, Helvetica, sans-serif;
 }
 
-.ms_about{
-  background-color: var(--ms_bg_green);
-}
+/* HEADER */
+
+/* MAIN */
 
 /* FOOTER */
-.ms_utility-info{
-  background-color: var(--ms_bg_blue2);
-}
 
-.ms_copyright{
-  background-color: var(--ms_bg_blue);
-}
-
- /*************************************************
-    DEBUG
- *************************************************/
- .debug :is(header, main, footer){
-  border: 2px solid rgb(0, 250, 0);
-}
-
-.debug [class^="container"]{
-  border: 1px dashed rgba(250, 0, 0, 0.3);
-}
-
-.debug .row {
-  border: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.debug [class^="col"] {
-  background-color: #daa52062;
-}
 
