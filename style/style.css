@@ -1,3 +1,8 @@
+:root{
+  --ms_bg_blue:#2C3E50;
+  --ms_bg_green:#1ABC9C;
+  --ms_bg_blue2:#3A546D;
+}
 /*************************************************
     GENERAL STYLES
  *************************************************/
@@ -6,10 +11,47 @@ body{
 }
 
 /* HEADER */
+header{
+  background-color: var(--ms_bg_blue);
+}
+
+
 
 /* MAIN */
+.ms_star::before{
+  content: "";
+  display: inline-block;
+  width: 100px;
+  border: 1px solid currentColor;
+  vertical-align: middle;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+.ms_star::after{
+  content: "";
+  display: inline-block;
+  width: 100px;
+  border: 1px solid currentColor;
+  vertical-align: middle;
+  margin-left: 20px; 
+  border-radius: 5px;
+}
+.ms_hero{
+  background-color: var(--ms_bg_green);
+}
+
+.ms_about{
+  background-color: var(--ms_bg_green);
+}
 
 /* FOOTER */
+.ms_utility-info{
+  background-color: var(--ms_bg_blue2);
+}
+
+.ms_copyright{
+  background-color: var(--ms_bg_blue);
+}
 
  /*************************************************
     DEBUG
