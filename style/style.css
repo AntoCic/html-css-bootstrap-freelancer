@@ -52,6 +52,13 @@ body {
 
 footer .ms_utility-info li {
   aspect-ratio: 1/1;
-  font-size: 2em;
+  font-size: 1.5em;
   width: 50px;
+  position: relative;
+}
+footer .ms_utility-info li i{
+  position: relative;
+  top: 50%;
+  /* non ho capito perchè ma va bene cosi ---------------------------------------------*/
+  transform: translateY(-75%);
 }
