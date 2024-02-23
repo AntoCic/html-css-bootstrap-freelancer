@@ -1,25 +1,25 @@
-:root{
-  --ms_bg_blue:#2C3E50;
-  --ms_bg_green:#1ABC9C;
-  --ms_bg_blue2:#3A546D;
+:root {
+  --ms_bg_blue: #2c3e50;
+  --ms_bg_green: #1abc9c;
+  --ms_bg_blue2: #3a546d;
 }
 
 /* UTILITY */
-.ms_bg-blue{
+.ms_bg-blue {
   background-color: var(--ms_bg_blue);
 }
-.ms_bg-green{
+.ms_bg-green {
   background-color: var(--ms_bg_green);
 }
-.ms_bg-blue2{
+.ms_bg-blue2 {
   background-color: var(--ms_bg_blue2);
 }
 
 /* COMPONENTS */
-.ms_star{
-  color: #2C3E50;
+.ms_star {
+  color: #2c3e50;
 }
-.ms_star::before{
+.ms_star::before {
   content: "";
   display: inline-block;
   width: 100px;
@@ -28,20 +28,20 @@
   margin-right: 20px;
   border-radius: 5px;
 }
-.ms_star::after{
+.ms_star::after {
   content: "";
   display: inline-block;
   width: 100px;
   border: 1px solid currentColor;
   vertical-align: middle;
-  margin-left: 20px; 
+  margin-left: 20px;
   border-radius: 5px;
 }
 /*************************************************
     GENERAL STYLES
  *************************************************/
-body{
-  font-family:Arial, Helvetica, sans-serif;
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* HEADER */
@@ -50,4 +50,8 @@ body{
 
 /* FOOTER */
 
-
+footer .ms_utility-info li {
+  aspect-ratio: 1/1;
+  font-size: 2em;
+  width: 50px;
+}
